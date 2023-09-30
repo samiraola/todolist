@@ -15,7 +15,7 @@ form.addEventListener("submit" , (e) => {
 
     if(typeof r != "undefined") {
         alert("correct")
-        window.location.href = "./connexte.html"
+        window.location.href = "./dossier_html/connexte.html"
     } else{
         alert("incorrect")
         window.location.reload()
