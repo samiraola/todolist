@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #ffff;  
+    
+   
+}
+h3{
+    text-align: center;
+    
+}
+.bouton{ 
+    width: 52%;
+    height: 30px;
+    position: relative;
+    left: 25%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+ }
+form{
+    width: 300px;
+    height: 380px;
+    background-color: burlywood;
+  
+   
+    margin: 0 auto;
+   margin-top: 150px;
+   border-radius: 10px;
+ 
+   padding: 30px;
+} 
+
+
+
+.container h3{
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+form input{
+    margin-top: 30px;
+    width: 250px;
+    height: 40px;
+    
+    background-color: 0%;
+    border-radius: 10px;
+   border: 1px solid;
+  
+   
+}
+
+
+.bouton a{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+   
+    background-color: burlywood;
+   
+   display: flex;
+   margin-left: 70px;
+   justify-content: center;
+   align-items: center;
+  margin-top: 20px;
+  text-decoration: none; 
+  color: white;
+  
+}
+
